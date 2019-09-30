@@ -1,0 +1,24 @@
+{
+  "name": "ifpb/interview",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Vector\\": "src/Vector/",
+      "String\\": "src/String/",
+      "SockMerchant\\": "src/SockMerchant/",
+      "Date\\": "src/Date/",
+      "Grammar\\": "src/Grammar/",
+      "RotLeft\\": "src/RotLeft/",
+      "ArrayStats\\": "src/arrayStats/",
+      "MinMaxSum\\": "src/MinMaxSum",
+      "HighestFrequency\\": "src/HighestFrequency",
+      "RepeatedString\\": "src/RepeatedString",
+      "MirrorSequence\\": "src/MirrorSequence",
+      "ZeroMeansZero\\": "src/ZeroMeansZero",
+      "NumberOfLeds\\": "src/NumberOfLeds"
+    }
+  },
+  "require-dev": {
+    "kahlan/kahlan": "^4.6"
+  }
+}
