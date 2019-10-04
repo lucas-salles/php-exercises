@@ -1,0 +1,9 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\Mamifero\\Felino\\": "App/Bicho",
+            "App\\Caracteristicas\\Animal\\": "App/Caracteristicas",
+            "App\\Mamifero\\": "App/"
+        }
+    }
+}
