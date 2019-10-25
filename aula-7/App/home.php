@@ -17,6 +17,11 @@
         <input type="text" name="nome">
         <button type="submit">Add</button>
     </form><br>
+    <form action="excluir.php" method="post">
+        <label for="nome">Nome do convidado:</label><br>
+        <input type="text" name="nome">
+        <button type="submit">Excluir</button>
+    </form>
     <a href="listar.php">Ver lista</a><br>
     <a href="sair.php">Sair</a>
 </body>

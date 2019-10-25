@@ -17,13 +17,14 @@
         if (!isset($_SESSION['nomes']))
             echo 'Lista vazia';
         else {
-            echo 'Convidados:';
+            echo 'Convidados:<br>';
             foreach ($_SESSION['nomes'] as $nome) {
                 echo $nome->getNome()."<br>";
             }
         }
     ?>
-    <a href="home.php">Voltar</a><br>
-    <a href="sair.php">Sair</a>
+    <br><a href="home.php">Voltar</a>
+    <br><a href="esvaziar.php">Esvaziar lista</a><br>
+    <br><a href="sair.php">Sair</a>
 </body>
 </html>
