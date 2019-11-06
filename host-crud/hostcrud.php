@@ -43,7 +43,7 @@
             } 
         }
 
-        function delete($id) {
+        public function delete($id) {
             $sql = "DELETE FROM host WHERE id=${id}";
           
             try {
@@ -54,9 +54,4 @@
             }
         }
     }
-
-
-
-    $test = new HostCrud();
-    print_r($test->readAll());
 ?>
