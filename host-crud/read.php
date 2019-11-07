@@ -18,25 +18,25 @@
     <title>Document</title>
 </head>
 <body>
-    <table class="table">
+    <table class="table table-striped">
         <thead>
             <tr>
-                <th scope="col">#</th>
+                <th scope="col">ID</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Address</th>
             </tr>
         </thead>
         <tbody>
-            <?php for ($i=0; $i < sizeof($hosts); $i++): ?>
+            <?php foreach ($hosts as $host): ?>
                 <tr>
-                    <th scope="row"><?php echo $i ?></th>
-                    <td><?php echo $hosts[$i]['name'] ?></td>
-                    <td><?php echo $hosts[$i]['address'] ?></td>
+                    <th scope="row"><?php echo $host['id'] ?></th>
+                    <td><?php echo $host['name'] ?></td>
+                    <td><?php echo $host['address'] ?></td>
                 </tr>
-            <?php endfor ?>
+            <?php endforeach ?>
         </tbody>
     </table>
-    <a href="home.php">Voltar</a>
+    <a href="home.php" class="btn btn-outline-secondary">Voltar</a>
 
 
 
